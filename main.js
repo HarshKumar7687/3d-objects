@@ -31,7 +31,7 @@ rgbeLoader.load('https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/4k/lakeside_s
 
 //loading 3d models
 const loader = new GLTFLoader();
-loader.load('/models/wooden_box.glb', function ( gltf ) {
+loader.load('./models/wooden_box.glb', function ( gltf ) {
     scene.add( gltf.scene );
 });
 
