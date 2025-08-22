@@ -24,13 +24,13 @@ camera.position.set(0, 0, 5);
 const rgbeLoader = new RGBELoader();
 rgbeLoader.load('https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/4k/lakeside_sunrise_4k.hdr', function(texture) {
     texture.mapping = THREE.EquirectangularReflectionMapping;
-    scene.background = texture;
+    // scene.background = texture;
     scene.environment = texture;
 });
 
 //loading 3d models
 const loader = new GLTFLoader();
-loader.load('./wooden_box.glb', function ( gltf ) {
+loader.load('/models/wooden_box.glb', function ( gltf ) {
     scene.add( gltf.scene );
 });
 
