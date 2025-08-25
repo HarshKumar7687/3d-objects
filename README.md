@@ -30,3 +30,6 @@ This project showcases **3D object rendering** using **Three.js**. It demonstrat
 ## 📬 Contact
 Created by **Harsh Kumar**  
 🔗 [GitHub](https://github.com/HarshKumar7687)
+
+
+This website may take some time to load.
