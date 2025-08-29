@@ -32,4 +32,4 @@ Created by **Harsh Kumar**
 🔗 [GitHub](https://github.com/HarshKumar7687)
 
 
-This website may take some time to load. So, please wait! patiently
+This website may take some time to load. So, please wait! patiently............
